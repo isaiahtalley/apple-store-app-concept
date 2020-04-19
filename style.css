@@ -1,0 +1,286 @@
+* {
+  font-family: Helvetica;
+  color: #fff;
+}
+
+body {
+  background: #444444;
+  height: 100vh;
+}
+
+.square {
+  width: 70vw;
+  height: 620px;
+  background: #212121;
+  border-radius: 35px;
+  -webkit-box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.square .phone {
+  width: 240px;
+  height: 500px;
+  background: #212121;
+  border-radius: 30px;
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 4px 3px 10px 10px rgba(0, 0, 0, 0.1), 4px 3px 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 3px 10px 10px rgba(0, 0, 0, 0.1), 4px 3px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  height: 30px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .menu-btn {
+  width: 28px;
+  height: 28px;
+  background: #212121;
+  border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: center;
+  cursor: pointer;
+}
+
+.header .menu-btn img {
+  width: 14px;
+  height: 16px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  margin-left: 6px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.header img {
+  width: 15px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  cursor: pointer;
+}
+
+.airpods1 {
+  width: 230px;
+  display: block;
+  margin: 40px auto;
+}
+
+.info-box {
+  width: 190px;
+  margin: -25px auto;
+}
+
+.info-box .name-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info-box .name-price h2 {
+  font-size: 15px;
+}
+
+.info-box p {
+  font-size: 10px;
+}
+
+.cart-color {
+  width: 190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 55px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cart-color input[type="submit"] {
+  width: 100px;
+  height: 30px;
+  background: #147ce5;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.cart-color .colors {
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart-color .colors button {
+  width: 18px;
+  height: 18px;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+}
+
+.cart-color .colors button:focus {
+  width: 22px;
+  height: 22px;
+}
+
+.cart-color .colors .white {
+  background: #fcfcfc;
+}
+
+.cart-color .colors .black {
+  background: black;
+}
+
+.cart-color .colors .red {
+  background: #6b2222;
+}
+
+h1 {
+  text-align: center;
+}
+
+.product-tabs {
+  width: 190px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-tabs a {
+  font-size: 10px;
+  color: #757575;
+  text-decoration: none;
+}
+
+.product-tabs a:active {
+  color: #fff;
+}
+
+.product-cards {
+  width: 210px;
+  margin: 20px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100px 100px;
+      grid-template-columns: 100px 100px;
+  grid-row: auto auto;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+}
+
+.product-cards .card {
+  width: 100px;
+  height: 150px;
+  background: #212121;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1), 0px 1px 5px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1), 0px 1px 5px 1px rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product-cards .card h3 {
+  font-size: 12px;
+}
+
+.product-cards .iphone {
+  width: 95px;
+  margin-top: -10px;
+}
+
+.product-cards .watch {
+  width: 115px;
+  margin-top: -18px;
+}
+
+.product-cards .airpods2 {
+  width: 100px;
+  margin-top: 12px;
+}
+
+.product-cards .ipad {
+  width: 69px;
+}
+
+.square {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.phone {
+  height: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .square {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: 150vh;
+    margin-top: 180px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
